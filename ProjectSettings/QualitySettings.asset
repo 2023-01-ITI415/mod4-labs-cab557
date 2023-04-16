@@ -221,7 +221,8 @@ QualitySettings:
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 0}
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
   m_PerPlatformDefaultQuality:
     Android: 2
     Lumin: 5
@@ -229,9 +230,10 @@ QualitySettings:
     Nintendo Switch: 5
     PS4: 5
     PSP2: 2
+    Server: 0
     Stadia: 5
-    Standalone: 5
-    WebGL: 3
+    Standalone: 0
+    WebGL: 0
     Windows Store Apps: 5
     XboxOne: 5
     iPhone: 2
